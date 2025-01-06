@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Inter;
+    background-color: #07081A;
+}
+
+a {
+    text-decoration: none;
+}
+
+.fullWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.box {
+    max-width: 1040px;
+    width: 100%;
+    padding: 0 20px;
+}
+
+/*header*/
+
+header {
+    display: flex;
+    border-bottom: 1px solid #261C51;
+    padding: 28px 200px 0 200px;
+}
+
+.nav_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 667px;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    width: 99px;
+    gap: 12px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+
+}
+
+.header_link {
+    display: flex;
+    gap: 16px;
+}
+
+.link {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+}
+
+.link:hover {
+    color: #8CE900;
+}
+
+/* main */
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    align-items: center;
+}
+
+.title_vebsite {
+    display: flex;
+    justify-content: space-between;
+    gap: 130px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 52px;
+    text-align: center;
+    color: #fff;
+    margin-top: 130px;
+}
+
+.img_animals {
+    width: 314px;
+    height: 320px;
+}
+
+.green_box {
+    display: flex;
+    justify-content: space-between;
+    background: #242642;
+    padding: 40px 70px;
+    gap: 200px;
+}
+
+h2 {
+    color: #8CE900;
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 60px;
+}
+
+.span_h {
+    color: #c0c0c0;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+/*footerrrrr*/
+footer {
+    display: flex;
+    justify-content: center;
+    margin: 200px 0 64px 0;
+}
+
+.container_footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 250px;
+}
+
+.footer_logo {
+    width: 220px;
+}
+
+.logo_span {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #fff;
+    padding: 10px;
+}
+
+.logo_p {
+    color: #c0c0c0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.footer_link {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
